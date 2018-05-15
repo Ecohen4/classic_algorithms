@@ -3,6 +3,7 @@ import random
 
 from src.binary_tree_search import binary_search
 
+
 class TestBinaryTreeSearch(unittest.TestCase):
 
     def setUp(self):

@@ -28,4 +28,4 @@ if __name__ == "__main__":
     import random
     l = random.choices(population=range(1000), k=1000)
     i = random.randint(0, 1000)
-    binary_search(list_=sorted(l), item=i)
+    binary_search(list_=sorted(l), item=i, verbose=True)
