@@ -22,3 +22,10 @@ The result of your efforts should be a pull-request to this repository.
 The code should run, but don't worry about fancy optimizations, edge cases, bells or whistles. Naive defaults and simplified parametrization are fine.
 
 Have fun!
+
+
+## run the tests
+Checkout the source code and run the tests.
+```
+python -m unittest discover
+```

@@ -1,9 +1,10 @@
 import numpy as np
 from src.sort_list import bubble_sort
 
+
 def binary_search(list_, item, verbose=False):
     print ("searching for {} in list...".format(item))
-    found, i, n = False, 0, len(list_)
+    found, i, n = False, 0, len(list_) + 1
     max_iter = np.ceil(np.log2(n))
     start, end = 0, n-1
     list_ = bubble_sort(list_)

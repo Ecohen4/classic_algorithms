@@ -4,6 +4,7 @@ Re-creating the (math) wheel
 """
 from resources.custom_exceptions import LogarithimUndefined
 
+
 class MyMath():
     """
     A base class for mathematical operations from first principles
